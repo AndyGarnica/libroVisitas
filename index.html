@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Libro de visitas</title>
+  </head>
+  <body>
+    <div class="">
+        <article id="contenedorNuevosArticulos"></article>
+    </div>
+    <div class="" >
+      <h2>Crear Articulo </h2>
+      <button type="button" name="button" onclick="textoGrande();">Texto Grande</button>
+      <button type="button" name="button" onclick="textoMediano();">Texto Mediano</button>
+      <button type="button" name="button" onclick="textoChico();">Texto Chico</button>
+      <button type="button" name="button" onclick="cambiaColor();">Color de Texto</button>
+      <button type="button" name="button"onclick="colorFondo();">Color de Fondo</button>
+      <button type="button" name="button" onclick="alinearIzquierda();">Alinear Izquierda</button>
+      <button type="button" name="button" onclick="alinearCentro();">Centrar</button>
+      <button type="button" name="button" onclick="alinearDerecha();">Alinear Derecha</button><br>
+      <br>
+      <textarea id="textoArea" name="name" rows="8" cols="80" onkeyup="obtenerTextPreview()"></textarea>
+      <h3>Contenido:</h3>
+      <p id = "text"></p>
+      <button type="button" name="button" onclick="enviar();">Enviar</button>
+    </div>
+
+
+
+    <script type="text/javascript" src= "libroVisitas.js">
+    </script>
+  </body>
+</html>
